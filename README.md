@@ -15,9 +15,10 @@
 ## 使用方法
 
 ### LSTM部分
+
 - 若使用自己的歌曲库可修改chinese_lyrics.txt。**chinese_lyrics.txt是个txt文件，歌词一句一行以'\n'为分割。
 - 若使用自己的歌曲库需清空demo.txt和chinese_rappers.rap两个文件。
-- Chinese_lyrics_flow.py训练时要将程序第19行train_mode改为True，生成时要改为False，直接运行即可，若时间紧迫可修改其中epoch和长度参数减少训练和生成时间。
+- Chinese_lyrics_flow.py训练时要将程序第19行train_mode改为True，生成时要改为False，直接运行即可。
 - 然后打开flow.py可自动匹配出押韵方式————也可自己设置长度————然后复制print出的ans结果。
 
 ### GPT-2部分
@@ -33,7 +34,6 @@
 - __pycache__ 文件夹为马尔科夫链生成的模型参数。
 - cache 文件夹为GPT-2语料库。
 - config 文件夹中贮存GPT-2模型基本参数。
-- model 文件中为GPT-2模型参数。
 - scripts, tokenizations文件为GPT-2配套文件。
 - chinese_lyrics.txt为中文说唱曲库。
 - Chinese_lyrics_flow.py为使用keras搭建的LSTM的中文说唱押韵模型，也可以直接生成说唱，只不过前后文内容衔接效果欠佳。
@@ -52,8 +52,18 @@
 
 ## 注意
 
+- Chinese_lyrics_flow.py训练时时间可能较长，若时间紧迫可修改其中epoch和长度参数减少训练和生成时间。
+- 若要自己尝试训练GPT-2数据量较少时可以考虑自己建立语料库建立方法即点击cache里的py文件即可。
+- style长度建议不长于12。
+- generate_with_flow.py生成可能会较慢，这是因为电脑词穷了，可以通过更改topk参数来改变随机性，改变生成的速度。
+- 若自己准备歌曲数据转换为chinese_lyrics.txt时注意每一行最后一个字后除了'\n'不要有任何字符。
+
+## model文件下载地址
+|  模型名称 |   模型介绍|   分享者|  链接地址1 |  链接地址2 |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| 散文模型  | 使用130MB的名家散文、情感散文和散文诗歌训练所得 。  |  [hughqiu](https://github.com/hughqiu "hughqiu") | [百度网盘【fpyu】](https://pan.baidu.com/s/1nbrW5iw34GRhoTin8uU2tQ)   | [GDrive](https://drive.google.com/drive/folders/1rJC4niJKMVwixUQkuL9k5teLRnEYTmUf?usp=sharing "GDrive") |
+
 ## 联系作者
 
 微信：158109871775
 邮箱：jianyq2003@sina.com
-
