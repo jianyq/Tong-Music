@@ -1,5 +1,5 @@
 # Tong-Music by using LSTM and GPT2 from Morizeyao/GPT2-Chinese
-## 多少个深夜无法入眠,思念，是那么的甜，那么的温暖。想你的每一次偶然，泪流满面，思念如潮水漫过心田。
+## 多少个深夜无法入眠，思念，是那么的甜，那么的温暖。想你的每一次偶然，泪流满面，思念如潮水漫过心田。
 ## Description
 
 - 中文的GPT-2训练代码（感谢[Morizeyao]（ https://github.com/Morizeyao ）的贡献，可以写诗，新闻，小说，或是训练通用语言模型）。
