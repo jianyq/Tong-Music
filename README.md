@@ -31,7 +31,7 @@
 我只是希望这样的日子能有个可以倾诉的角色，
 让你知道我的存在是多么有压抑的选择，
 也许我的努力就够了。
-
+pytorch_model.bin
 ## 使用方法
 
 ### LSTM部分
@@ -44,6 +44,7 @@
 ### GPT-2部分
 
 - 可参照 https://github.com/Morizeyao/GPT2-Chinese 自行配置，这里使用的是网友训练好的散文模型，可使课词更富有诗情画意。
+- 因文件较大需自行下载模型参数在最下方链接，在根目录建立model文件夹中建立final_model文件夹并将下载下来的config.json与pytorch_model.bin拷贝至final_model中即可，vocab.txt已经导入cache。
 - 这里已经不需要再重新训练。
 - 根据复制的print出ans的结果修改generate_with_flow.py第10行style **style是指接下来的文本押韵方式。
 - 也可以根据自己喜欢的风格修改style。
