@@ -1,0 +1,9 @@
+transformers==2.1.1
+pypinyin==0.35.3
+torch
+numpy
+tqdm
+sklearn
+tb-nightly
+future
+thulac
