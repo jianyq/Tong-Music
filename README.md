@@ -50,6 +50,12 @@
 - 也可以根据自己喜欢的风格修改style。
 - 修改--prefix为自己想以之为开头的主题直接运行，即可自行生成文本。
 
+### 机器演唱部分
+
+- 修改自己想要的beat为beat.mp3
+- 修改自己想要的歌词为demo.txt
+- 打开start.py直接运行即可
+
 ## 文件结构
 
 - pycache文件夹为马尔科夫链生成的模型参数。
@@ -73,6 +79,8 @@
 - rhyme_searching.py中有自己写的函数rhyme供查找押韵所用
 - README.docx为README.md对应word文档
 - demo_0.txt为在epoch为20的训练结果下计算机学会单双押的示范
+- start.py用于机器演唱
+- beat.mp3为想播放的beat文件
 
 ## 注意
 
@@ -82,6 +90,7 @@
 - style长度建议不长于12。
 - generate_with_flow.py生成可能会较慢，这是因为电脑词穷了，可以通过更改topk参数来改变随机性，改变生成的速度。
 - 若自己准备歌曲数据转换为chinese_lyrics.txt时注意每一行最后一个字后除了'\n'不要有任何字符。
+- 非windows用户可能在播放时会出点小问题（也许）。修改start.py中打开beat的函数参数即可。
 
 ## model文件下载地址
 |  模型名称 |   模型介绍|   分享者|  链接地址1 |  链接地址2 |
