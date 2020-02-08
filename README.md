@@ -77,7 +77,6 @@
 - train.py用于训练GPT-2。
 - train_single.py也用于训练GPT-2。
 - rhyme_searching.py中有自己写的函数rhyme供查找押韵所用。
-- README.docx为README.md对应word文档。
 - demo_0.txt为在epoch为20的训练结果下计算机学会单双押的示范。
 - start.py用于机器演唱。
 - beat.mp3为想播放的beat文件。
