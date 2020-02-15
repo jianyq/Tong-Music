@@ -56,6 +56,13 @@
 - 修改自己想要的歌词为demo.txt。
 - 打开start.py直接运行即可。
 
+## 2020.2.15新增
+
+- rhyme_searching2.py为双押查找函数rhyme_searching.py的进化版。
+- chinese_rappers2.rap储存押韵模型通过再次训练学会的双押。
+- demo2.py为机器学会调押+双押的示范。
+- 可以通过修改rhyme_searching.py完成三押四押等多押的训练，这也使我有了去使用lstm不仅学会句子押韵而且继续往技巧性训练更进一步的想法，还需要不断的学习和尝试。
+
 ## 文件结构
 
 - pycache文件夹为马尔科夫链生成的模型参数。
