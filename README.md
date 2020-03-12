@@ -5,12 +5,30 @@
 - 中文的GPT-2训练代码（感谢[Morizeyao]（ https://github.com/Morizeyao ）的贡献，可以写诗，新闻，小说，或是训练通用语言模型）。
 - 十分感谢[hughqiu](https://github.com/hughqiu "hughqiu")的散文模型。
 - 中文的LSTM押韵处理器，其中配有马尔科夫链可自主生成文本。
+- 结合LDA模型对数据打标签。
+- 结合标签与新数据finetune散文模型。
 - 本程序主用于歌词和说唱歌词的生成。
 
 ## 项目状态
 
 - 本人第一次使用github，此项目也为高中时期练手所用，难免会有很多暴力（朴素）的地方，请谅解。
 - 一年内会持续更新填坑。
+
+
+### 2020.2.15新增
+
+- rhyme_searching2.py为双押查找函数rhyme_searching.py的进化版。
+- chinese_rappers2.rap储存押韵模型通过再次训练学会的双押。
+- demo2.py为机器学会调押+双押的示范。
+- 可以通过修改rhyme_searching.py完成三押四押等多押的训练，这也使我有了去使用lstm不仅学会句子押韵而且继续往技巧性训练更进一步的想法，还需要不断的学习和尝试。
+
+### 2020.3.12新增
+
+- 重新获取数据。
+- 重新清洗数据。
+- 使用LDA模型对数据进行主题分类并打标签。
+- 通过打标签数据finetune散文模型。
+- 模型参数过大，可以加本人微信qtdsjyq分享。
 
 ## demo：《我忘不了》
 
@@ -55,13 +73,6 @@
 - 修改自己想要的beat为beat.mp3。
 - 修改自己想要的歌词为demo.txt。
 - 打开start.py直接运行即可。
-
-## 2020.2.15新增
-
-- rhyme_searching2.py为双押查找函数rhyme_searching.py的进化版。
-- chinese_rappers2.rap储存押韵模型通过再次训练学会的双押。
-- demo2.py为机器学会调押+双押的示范。
-- 可以通过修改rhyme_searching.py完成三押四押等多押的训练，这也使我有了去使用lstm不仅学会句子押韵而且继续往技巧性训练更进一步的想法，还需要不断的学习和尝试。
 
 ## 文件结构
 
