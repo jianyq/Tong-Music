@@ -120,6 +120,9 @@
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | 散文模型  | 使用130MB的名家散文、情感散文和散文诗歌训练所得 。  |  [hughqiu](https://github.com/hughqiu "hughqiu") | [百度网盘【fpyu】](https://pan.baidu.com/s/1nbrW5iw34GRhoTin8uU2tQ)   | [GDrive](https://drive.google.com/drive/folders/1rJC4niJKMVwixUQkuL9k5teLRnEYTmUf?usp=sharing "GDrive") |
 
+|  模型名称 |   模型介绍|   分享者|  链接地址1 |
+| ------------ | ------------ | ------------ | ------------ |
+| 歌词模型  | 使用中文歌词训练所得 。  |  [jianyq](https://github.com/jianyq "jianyq") | [百度网盘【3x89】](https://pan.baidu.com/s/112qp2TomjHJ3w_g5DC_ZvA)   |
 ## 联系作者
 
 微信：15810981775
