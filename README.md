@@ -125,5 +125,5 @@
 | 歌词模型  | 使用中文歌词训练所得 。  |  [jianyq](https://github.com/jianyq "jianyq") | [百度网盘【3x89】](https://pan.baidu.com/s/112qp2TomjHJ3w_g5DC_ZvA)   |
 ## 联系作者
 
-微信：15810981775
+微信：qtdsjyq
 邮箱：jianyq2003@sina.com
