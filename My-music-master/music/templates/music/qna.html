@@ -1,0 +1,26 @@
+{% extends 'music/base.html' %}
+{% block title %}QnA{% endblock %}
+{% block qna_active %}active{% endblock %}
+
+{% block body %}
+    <div> 
+        <form class="navbar-form" role="search" method="get" action="{% url 'music:qna' %}">
+            <button type="submit" class="btn btn-default" style="background-color: rgb(255, 151, 0);">Me</button>
+            <div class="form-group">
+                <input type="text" class="form-control" name="qna" value="{{ request.GET.q }}">
+            </div>
+                
+        </form>
+    </div>
+    <!-- <br /> -->
+    <div>
+        <form class="navbar-form" role="search" method="get" action="{% url 'music:qna' %}">
+            <button type="submit" class="btn btn-default" style="background-color: rgb(255, 151, 0);">RoBot</button>
+            <div class="form-group">
+                <input type="text" class="form-control" name="qna" value="{{ rlt }}">
+            </div>
+            
+            
+        </form>
+    </div>
+{% endblock %}

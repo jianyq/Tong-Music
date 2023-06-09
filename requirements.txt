@@ -1,9 +1,16 @@
+Django==1.9.4
 transformers==2.1.1
-pypinyin==0.35.3
 torch
 numpy
 tqdm
 sklearn
+keras==2.3.1
 tb-nightly
 future
 thulac
+Django==1.9.4
+tensorflow==2.0.0b0
+wxpy==0.3.9.8
+baidu-aip
+pymysql
+mysqlclient
