@@ -60,6 +60,7 @@
 
 ## 使用方法
 
+
 ### LSTM部分
 
 - 若重新训练需修改chinese_lyrics.txt。**chinese_lyrics.txt是个txt文件，歌词一句一行以'\n'为分割。

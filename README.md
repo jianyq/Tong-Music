@@ -10,6 +10,8 @@ Language : English | [简体中文](./README.cn.md)
 - Label the dataset with the LDA model.
 - finetune prose model combining tags with new data.
 - This program is mainly used for the generation of lyrics and rap lyrics.
+- A music platform was developed using Django, which allows users to create music online by using artificial intelligence technology. The generated songs can be shared and traded through the platform.
+- Used Python and MySQL to build a database and execute database query and modify operations automatically.
 
 ## Status
 
@@ -20,7 +22,7 @@ Project restart
 - rhyme_searching2.py can find double rhyme, is the updated version of rhyme_searching.py.
 - chinese_rappers2.rap stores the new model parameters.
 - demo2.py is demo to show that the model learn double rhyme well.
-- modify rhyme_searching.py to learn triple rhyme, This also gave me the idea to use lstm not only to learn sentence rhyme but also to continue to further the technical training, which also needs continuous learning and trying.
+- Modify rhyme_searching.py to learn triple rhyme, This also gave me the idea to use lstm not only to learn sentence rhyme but also to continue to further the technical training, which also needs continuous learning and trying.
 
 ### 2020.3.12 new
 
@@ -32,9 +34,14 @@ Project restart
 
 ### 2020.4.16 new
 
-- use django to build the website AIonemusic to achieve speech synthesis and independent song generation, hoping to have a good lyric alignment and speech-to-singing big guy to add a wechat exchange!
+- Use django to build the website AIonemusic to achieve speech synthesis and independent song generation, hoping to have a good lyric alignment and speech-to-singing big guy to add a wechat exchange!
 - Free commercial services!
 - If someone knows LAVA NAT or various ways to improve the generation speed? (the generation is too unfriendly to the cpu).
+
+### 2023.6.19 new
+- Update web file
+- Update model
+- Update readme, English support.
 
 ## Demo: "I can't forget"
 
@@ -76,6 +83,13 @@ Perhaps my efforts have been enough."
 - Modify the lyrics you want to demo.txt.
 - Open start.py and run it directly.
 
+### Website part
+- Connect your own MySQL.
+- Run!
+``` bash
+cd My-music-master
+python manage.py runserver 0.0.0.0:8000
+```
 ## notice
 
 
