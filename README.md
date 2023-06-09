@@ -1,7 +1,7 @@
 Language : English | [简体中文](./README.cn.md)
 # Tong-Music by using LSTM and GPT2 from Morizeyao/GPT2-Chinese
 ## Countless sleepless nights, yearning, it's so sweet, so warm. Every accidental thought of you, tears streaming down my face, memories flood over my heart like a tidal wave.
-
+[![Watch the video](cover_image.png)](https://youtu.be/cS_5AcD-jBk)
 ## Description
 
 - Chinese GPT-2 training code (Thanks to [Morizeyao]( https://github.com/Morizeyao "Morizeyao")'s contribute, the model can be used to train universal language models).
@@ -82,11 +82,11 @@ Perhaps my efforts have been enough."
 ## model download links
 |  Name |   Description|   Sharer|  Link1 |  Link2 |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Prose Model  | Trained with 130MB of famous prose, emotional prose, and prose poetry.  |  [hughqiu](https://github.com/hughqiu "hughqiu") | [Baidu netdisk【fpyu】](https://pan.baidu.com/s/1nbrW5iw34GRhoTin8uU2tQ)   | [GDrive](https://drive.google.com/drive/folders/1rJC4niJKMVwixUQkuL9k5teLRnEYTmUf?usp=sharing "GDrive") |
+| Prose Model  | Trained with 130MB of famous prose, emotional prose, and prose poetry.  |  [hughqiu](https://github.com/hughqiu "hughqiu") | [Baidu Netdisk【fpyu】](https://pan.baidu.com/s/1nbrW5iw34GRhoTin8uU2tQ)   | [GDrive](https://drive.google.com/drive/folders/1rJC4niJKMVwixUQkuL9k5teLRnEYTmUf?usp=sharing "GDrive") |
 
 |  Name |   Description|   Sharer|  Link1 | 
 | ------------ | ------------ | ------------ | ------------ |
-| Lyrics Model  |  Using Chinese lyrics to train. |  [jianyq](https://github.com/jianyq "jianyq") | [百度网盘【3x89】](https://pan.baidu.com/s/112qp2TomjHJ3w_g5DC_ZvA)  
+| Lyrics Model  |  Using Chinese lyrics to train. |  [jianyq](https://github.com/jianyq "jianyq") | [	Baidu Netdisk【3x89】](https://pan.baidu.com/s/112qp2TomjHJ3w_g5DC_ZvA)  
 
 ## Contact me
 
