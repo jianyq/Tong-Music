@@ -9,7 +9,7 @@ tb-nightly
 future
 thulac
 Django==1.9.4
-tensorflow==2.0.0b0
+tensorflow==2.11.1
 wxpy==0.3.9.8
 baidu-aip
 pymysql
