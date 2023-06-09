@@ -4,14 +4,14 @@ Language : English | [简体中文](./README.cn.md)
 [![Watch the video](Demo_picture.png)](https://youtu.be/cS_5AcD-jBk)
 ## Description
 
-- Chinese GPT-2 training code (Thanks to [Morizeyao]( https://github.com/Morizeyao "Morizeyao")'s contribute, the model can be used to train universal language models).
+- Chinese **GPT-2** training code (Thanks to [Morizeyao]( https://github.com/Morizeyao "Morizeyao")'s contribute, the model can be used to train universal language models).
 - Thanks to [hughqiu](https://github.com/hughqiu "hughqiu")'s Prose model.
-- Chinese LSTM rhyming processor with Markov chain to generate text autonomously.
-- Label the dataset with the LDA model.
+- Chinese **LSTM** rhyming processor with Markov chain to generate text autonomously.
+- Label the dataset with the **LDA** model.
 - finetune prose model combining tags with new data.
 - This program is mainly used for the generation of lyrics and rap lyrics.
-- A music platform was developed using Django, which allows users to create music online by using artificial intelligence technology. The generated songs can be shared and traded through the platform.
-- Used Python and MySQL to build a database and execute database query and modify operations automatically.
+- A music platform was developed using **Django**, which allows users to create music online by using artificial intelligence technology. The generated songs can be shared and traded through the platform.
+- Used **Python** and **MySQL** to build a database and execute database query and modify operations automatically.
 
 ## Status
 
@@ -67,7 +67,7 @@ Perhaps my efforts have been enough."
 ## Quick start
 
 ### LSTM section
-- Modify chinese_lyrics.txt for retraining.**chinese_lyrics.txt is a txt file with lyrics divided by '\n'.
+- Modify chinese_lyrics.txt for retraining.**chinese_lyrics.txt is a txt file with lyrics divided by '\n'**.
 - To retrain, clear demo.txt and chinese_rappers.rap files.
 -Chinese_lyrics_flow. py change train_mode in line 19 of the program to True during training and False during generation. You can run it directly.
 - Then open flow_finding.py to automatically match the rhyme pattern —— or set the length —— and copy the ans result from print.
