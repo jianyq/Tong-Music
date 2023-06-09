@@ -1,11 +1,7 @@
-
-
-
+Language : English | [简体中文](./README.cn.md)
 # Tong-Music by using LSTM and GPT2 from Morizeyao/GPT2-Chinese
 ## Countless sleepless nights, yearning, it's so sweet, so warm. Every accidental thought of you, tears streaming down my face, memories flood over my heart like a tidal wave.
- Language : English | <a href="./README.cn.md">简体中文<a/>
 [![Watch the video](Demo_picture.png)](https://youtu.be/cS_5AcD-jBk)
-
 ## Description
 
 - Chinese GPT-2 training code (Thanks to [Morizeyao]( https://github.com/Morizeyao "Morizeyao")'s contribute, the model can be used to train universal language models).
