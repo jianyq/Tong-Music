@@ -128,6 +128,9 @@
 | 歌词模型  | 使用中文歌词训练所得 。  |  [jianyq](https://github.com/jianyq "jianyq") | [百度网盘【3x89】](https://pan.baidu.com/s/112qp2TomjHJ3w_g5DC_ZvA)   |
 ## 联系作者
 
+
 微信：qtdsjyq
 
 邮箱：yuqingj2@illinois.edu
+邮箱2：jisenli2@illinois.edu
+
