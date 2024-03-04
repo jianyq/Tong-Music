@@ -107,3 +107,5 @@ python manage.py runserver 0.0.0.0:8000
 Wechat：qtdsjyq
 
 Email：yuqingj2@illinois.edu
+
+Email2：jisenli2@illinois.edu
