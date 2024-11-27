@@ -1,4 +1,4 @@
-Django==1.9.4
+Django==2.2.28
 transformers==2.1.1
 torch
 numpy
@@ -8,7 +8,7 @@ keras==2.3.1
 tb-nightly
 future
 thulac
-Django==1.9.4
+Django==2.2.28
 tensorflow==2.11.1
 wxpy==0.3.9.8
 baidu-aip
